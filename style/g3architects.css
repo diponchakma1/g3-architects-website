@@ -13,6 +13,10 @@
     box-sizing: border-box;
 }
 
+.hide {
+    display: none;
+}
+
 img {
     width: 100%;
     height: 100%;
@@ -38,7 +42,7 @@ main>section {
 /* Dark 01 */
 .text-gray-1 {
     color: #131313;
-    font-size: 45px;
+    font-size: 43px;
     font-weight: bold;
 }
 
@@ -68,6 +72,7 @@ main>section {
     padding: 20px 25px;
     border: none;
     font-size: 1.25rem;
+    margin-top: 10px;
 }
 
 /* navbar style */
@@ -100,13 +105,21 @@ main>section {
     width: 860px;
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-top: 100px;
 
+}
+
+.banner-description {
+    padding: 30px;
 }
 
 .banner-title {
     font-weight: 700;
-    font-size: 4rem;
+    font-size: 2rem;
+}
+
+.banner img {
+    margin-top: 50px;
 }
 
 /* team style start */
@@ -171,6 +184,19 @@ main>section {
 
     .our-features {
         margin-right: 10px;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .our-features {
+        /* max-width: 530px; */
+        margin: 20px;
+    }
+
+    .btn-primary {
+        margin-top: 10px;
     }
 }
 
