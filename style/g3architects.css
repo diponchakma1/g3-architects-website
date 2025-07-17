@@ -275,6 +275,19 @@ main>section {
     filter: grayscale(100%);
 }
 
+footer {
+    display: flex;
+    width: 1170px;
+    height: 100px;
+    margin: 100px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    text-align: center;
+}
+
 /* Media query apply */
 @media screen and (max-width: 576px) {
 
@@ -354,6 +367,7 @@ main>section {
         margin-top: 10px;
     }
 }
+
 
 /* Medium Device Responsive */
 @media screen and (min-width: 576px) and (max-width: 992px) {
