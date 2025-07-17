@@ -174,7 +174,7 @@ main>section {
 }
 
 .feature-description {
-    margin: 30px auto;
+    margin: 40px auto;
 }
 
 .architect .btn-primary {
@@ -184,13 +184,17 @@ main>section {
 
 }
 
+.architect img {
+    width: 100%;
+}
+
 .years {
     font-size: 4rem;
     font-weight: 700;
 }
 
 .feature-card {
-    width: 580px;
+    width: 500px;
     /* height: 120px; */
     border: 1px solid rebeccapurple;
     border-radius: 8px;
@@ -220,6 +224,7 @@ main>section {
 
 .fact-title {
     font-size: 2.7rem;
+    font-weight: 700;
 }
 
 .fact-description {
@@ -252,6 +257,15 @@ main>section {
     text-align: center;
 }
 
+.sponsor-title {
+    font-size: 2.7rem;
+    font-weight: bold;
+}
+
+.sponsor-description {
+    margin: 20px auto;
+}
+
 .sponsor-companies {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -267,7 +281,8 @@ main>section {
     .navbar,
     .nav-links,
     .banner,
-    .team {
+    .team,
+    .feature-section {
         flex-direction: column;
     }
 
@@ -285,6 +300,29 @@ main>section {
     .sponsor-companies {
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
+    }
+
+    .feature-description,
+    .feature-title,
+    .feature-card {
+        margin: 20px 30px;
+        padding: 20px 20px;
+    }
+
+    .feature-title {
+        font-size: 2.5rem;
+    }
+
+    .feature-card {
+        width: 300px;
+        padding: 30px 30px;
+    }
+
+    .architect .btn-primary {
+        margin-top: 20px;
+        margin-left: 20px;
+        padding: 20px;
+
     }
 
     .fact-container,
