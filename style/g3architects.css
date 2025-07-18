@@ -28,12 +28,10 @@ img {
 
 .display-flex {
     display: flex;
-    /* margin: 0 auto; */
 }
 
 main {
-    /* max-width: 1440px; */
-    width: 1170px;
+    width: 1000px;
     margin: 0 auto;
 }
 
@@ -77,9 +75,16 @@ main>section {
     margin-top: 10px;
 }
 
+/* head section */
+.header-container {
+    background-color: aquamarine;
+    width: 100%;
+}
+
 /* navbar style */
 
 .navbar {
+    margin: 20px auto;
     justify-content: space-between;
     align-items: center;
 }
@@ -96,33 +101,52 @@ main>section {
 }
 
 .navbar,
-.banner {
-    margin: 0 auto;
-    width: 1170px;
+.banner-section {
+    width: 1000px;
 }
 
 /* banner related style */
 
-.banner-content {
-    width: 860px;
+.banner-section {
+    margin: 40px auto;
     text-align: center;
-    margin: 0 auto;
-    margin-top: 100px;
-
-}
-
-.banner-description {
-    padding: 30px;
 }
 
 .banner-title {
-    font-weight: 700;
-    font-size: 2rem;
+    font-size: 4rem;
+    font-weight: bold;
 }
 
-.banner img {
-    margin-top: 50px;
+.banner-contents {
+    width: 800px;
+    margin: 20px auto;
 }
+
+.banner-description {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.banner-image img {
+    width: 100%;
+    /* margin: 20px auto; */
+
+}
+
+/* .banner-description {
+    padding: 30px;
+} */
+
+/* .banner-title {
+    font-weight: 700;
+    font-size: 2rem;
+} */
+
+/* .banner-img {
+    margin-top: 50px;
+    margin: 50px auto;
+    justify-content: center;
+} */
 
 /* team style start */
 .team {
@@ -269,6 +293,7 @@ main>section {
 .sponsor-companies {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
 }
 
 .sponsor-companies img {
@@ -276,8 +301,7 @@ main>section {
 }
 
 footer {
-    display: flex;
-    width: 1170px;
+    width: 1000px;
     height: 100px;
     margin: 100px auto;
     justify-content: center;
@@ -299,6 +323,7 @@ footer {
         flex-direction: column;
     }
 
+    /* 
     .banner,
     .navbar {
         width: 425px;
@@ -306,7 +331,7 @@ footer {
 
     .banner-content {
         width: 430px;
-    }
+    } */
 
     .team-images-container,
     .fact-container,
